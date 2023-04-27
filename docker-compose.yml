@@ -68,7 +68,7 @@ services:
 # phpMyAdmin Service
 
     phpmyadmin:
-        image: phpmyadmin/phpmyadmin:latest
+        image: phpmyadmin
         ports:
             - 8080:80
         environment:
